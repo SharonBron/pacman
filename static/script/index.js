@@ -580,9 +580,8 @@
 				this.y = game.height-20-5;
 				context.fillText(text,this.x,this.y);
 			}
-		}).bind('click',function(){
-			window.open('https://passer-by.com');
 		});
+	})
 		//
 		stage.bind('keydown',function(e){
 			switch(e.keyCode){
@@ -592,7 +591,6 @@
 				break;
 			}
 		});
-	})();
 	//
 	(function(){
 		_COIGIG.forEach(function(config,index){
